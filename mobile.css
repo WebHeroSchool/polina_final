@@ -1,16 +1,248 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 550px) {
+
+
+  .social,
+  .img__content,
+  .content__description,
+  .content__button,
+  .header_link,
+  .img__block_back_white,
+  .block__link,
+  .wrapper-language span,
+  .block__counter,
+  .counter-2,
+  .scroolling__content,
+  .footer__buttom { display: none; }
+
   .header {
-    height: 585px;
-    width: 100%;
-    background: url(img/header_content.svg) center no-repeat;
-    background-position-y: 4px;
-    background-position-x: -1px;
-    transform: translate(0px,10px);
-    padding-bottom: 8px;
-    background-size: cover;
+    height: 603px;
+    background-image: url(img/header_content.svg);
+    background-repeat: no-repeat;
+    background-position-y: 15px;
+    background-size: 101%;
   }
 
-  .img__content,
+  #rectangle__header { background-color: transparent; }
+
+  .logo{
+    position: relative;
+    margin: 0;
+    background-color: white;
+    -webkit-text-fill-color: #000;
+    padding: 17px 197% 18px 23%;
+    top: 8px;
+    z-index: 2;
+  }
+
+  .menu {
+    visibility: hidden;
+    width: 100%;
+    height: 58vh;
+    margin-top: 86vh;
+    padding-top: 6%;
+    background-color: #FAE8E4;
+  }
+
+  .menu__element { color: midnightblue; }
+
+  .menu__btn {
+    width: 66px;
+    height: 73px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .menu__btn span,
+  .menu__btn span::before {
+    position: relative;
+    right: 7px;
+    bottom: 5px;
+    width: 41%;
+  }
+  .menu__btn span::before {
+    width: 97%;
+    left: 0;
+    bottom: 3px;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::before { top: 0; }
+
+
+  #menu__toggle:checked ~ .wrapper-language i { visibility: hidden; }
+
+  .content__title {
+    position: relative;
+    top: 386px;
+    right: 52%;
+    padding-left: 2px;
+    margin: 0;
+    font: bold 50px/53px Montserrat_bold, arial, helvetica, sans-serif;
+  }
+  .wrapper-language i {
+    position: relative;
+    border: solid #080808;
+    border-width: 0 3px 3px 0;
+    padding: 10px;
+    top: 61.3vh;
+    left: 20.2vw;
+  }
+
+  .wrapper {
+    height: 603px;
+    top: 583px;
+  }
+
+  .img__block_back_pink {
+    height: 322px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    right: 0;
+    bottom: 54px;
+    top: auto;
+  }
+
+  .block {
+    margin: auto;
+    width: 283px;
+    height: 280px;
+    left: 2px;
+    bottom: 61px;
+    padding-left: 35px;
+  }
+
+  .block__title {
+    font: bold 20px/20px Montserrat_bold, arial, helvetica, sans-serif;
+    bottom: 25px;
+    position: relative;
+    right: 6px;
+  }
+
+  .block__subtitke {
+    font: bold 10px/10px Monsterrat_bold, arial, helvetica, sans-serif;
+    position: relative;
+    margin: 0;
+    padding-bottom: 0;
+    bottom: 23px
+  }
+
+  .block__description {
+    font: 9px/13px Monsterrat_Regular, arial, helvetica, sans-serif;
+    width: 260px;
+    bottom: 18px;
+    right: 4px;
+    position: relative;
+  }
+
+  .buttom__color {
+    width: 23px;
+    height: 23px;
+    bottom: 32px;
+    position: relative;
+    display: flex;
+    flex: none;
+    margin: 33px 9px 0 0;
+    right: 1px;
+  }
+
+  .buttom__color_pink {
+    width: 29px;
+    height: 29px;
+    top: 3px;
+    align-self: flex-end;
+  }
+
+  .block_price {
+    left: 184px;
+    bottom: 57px;
+    font: bold 20px/28px Montserrat_bold, arial, helvetica, sans-serif;
+  }
+
+  .block__buttom__basket {
+    position: relative;
+    height: 38px;
+    width: 257px;
+    right: 118px;
+    bottom: 28px;
+    padding-left: 13px;
+    border: 1px solid black;
+  }
+
+  .footer { height: 596px; }
+
+  #rectangle__footer {
+    position: relative;
+    width: 41px;
+    height: 100%;
+    margin-left: 1px;
+    left: 27%;
+  }
+
+  .img__footer_сontent {
+    width: 93vw;
+    height: 261px;
+    bottom: 162%;
+    padding-top: 4px;
+    left: 0;
+    margin: auto;
+  }
+
+  .img__footer_shadow {
+    width: 113%;
+    height: 45%;
+    bottom: 117%;
+    right: 14vw;
+  }
+
+  .footer__block {
+    width: 280px;
+    height: 196px;
+    padding: 1px 0 0 23px;
+    left: 9px;
+    bottom: 159%;
+    margin: auto;
+  }
+
+  .footer__title {
+    font: bold 20px/20px Montserrat_bold, arial, helvetica, sans-serif;
+    margin-top: 24px;
+  }
+
+  .footer__subtitle {
+    font: bold 10px/10px Montserrat_bold, arial, helvetica, sans-serif;
+    padding-top: 7px;
+    margin: 0;
+  }
+
+  .footer__discription {
+    width: 226px;
+    font: 9px/13px Monsterrat_Regular, arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 9px 0 0 0;
+  }
+
+  .footer__buttom__basket {
+    width: 260px;
+    height: 37px;
+    padding: 13px 0 16px 0;
+    margin: 20px 0 0 0;
+    font: 500 13px/0px Monsterrat_Medium, arial, helvetica, sans-serif;
+  }
+
+  .footer_link {
+    width: 54%;
+    margin: 66px 0 0 118px;
+    font: 500 15px/18px Monsterrat_Medium, arial, helvetica, sans-serif;
+  }
+
+  .footer__link-img {
+    width: 90%;
+    padding-left: 2px;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 768px)
+{
   .social,
   .content__description,
   .content__button,
@@ -23,225 +255,198 @@
   .scroolling__content,
   .footer__buttom { display: none; }
 
-  .logo{
-    margin: 0;
-    background-color: white;
-    -webkit-text-fill-color: #000;
-    margin-right: 18%;
-    padding-left: 26px;
-    padding-top: 19px;
-    padding-bottom: 22px;
-    transform: translate(0,-30px);
-    font: 33px/30px Monsterrat_Medium, arial, helvetica, sans-serif;
+  .header { height: 593px; }
+
+  .img__content {
+    bottom: 139%;
+    width: 100%;
+    padding: 0;
+    left: 0;
+    height: 61vh;
   }
+
+  #rectangle__header { background-color: transparent; }
+
+  .logo { -webkit-text-fill-color: #000; }
 
   .menu {
-    display: block;
-    visibility: hidden;
     width: 100%;
-    height: 100%;
-    padding-top: 40%;
-    text-align: center;
+    height: 84%;
+    bottom: 267%;
+    padding-top: 6%;
     background-color: #FAE8E4;
-    transition-duration: 0.02s;
-    transform: translateY(-3%);
+    z-index: 2;
   }
 
-  .menu__element {
-    display: block;
-    padding: 24px;
-    font-family: Roboto-Medium, arial, helvetica, sans-serif;
-    font-size: 30px;
-    font-weight: 500px;
-    text-decoration: none;
-    transition-duration: 0.01s;
-    transform: translateY(-164%);
-    color: midnightblue;
-  }
+  .menu__element { color: midnightblue; }
+
   .menu a:hover {
     opacity: 0.7;
     color: #e01919;
   }
 
-  .menu__btn {
-    width: 18%;
-    height: 76px;
-    margin-left: 0;
-    transform: translate(455%, -21%);
-  }
-
   .menu__btn span,
-  .menu__btn span::before {
-    width: 40%;
-    left: 39%;
-    top: 30%;
-    transform: translate(-15%,381%);
-  }
-  .menu__btn span::before {
-    width: 97%;
-    transform: translate(-39%, 199%);
-  }
+  .menu__btn span::before { position: relative; }
 
-  #menu__toggle:checked ~ .menu__btn > span { transform: rotate(45deg); }
+  .menu__btn span::before { bottom: 3px; }
 
-  #menu__toggle:checked ~ .menu__btn > span::before {
-    top: -1px;
-    left: 0;
-    transform: rotate(90deg);
-  }
-
-  #menu__toggle:checked ~ .menu { visibility: visible; }
-  #menu__toggle:checked ~ .content { visibility: hidden; }
-
-  #menu__toggle:checked ~ .wrapper-language i { visibility: hidden; }
-
-  .content {
-    position: static;
-    transform: translate(155%,-878%);
-  }
+  #menu__toggle:checked ~ .menu__btn > span::before { top: 0; }
 
   .content__title {
-    transform: translate(-148%,438%);
-    font: bold 50px/53px Montserrat_bold, arial, helvetica, sans-serif;
+    position: relative;
+    font-size: 4.5em;
+    right: 48vw;
+    bottom: 30vh;
   }
+
   .wrapper-language i {
+    position: relative;
     border: solid #080808;
     border-width: 0 3px 3px 0;
     padding: 10px;
-    top: 874px;
-    right: 217px;
+    top: 536px;
+    left: 23vw;
+    z-index: 1;
   }
 
-  .wrapper {
-    height: 603px;
-    top: 583px;
-  }
+  .wrapper { height: 603px; }
 
   .img__block_back_pink {
-    width: 226px;
-    height: 322px;
-    padding: 0;
-    transform: translateY(-13%);
-    margin-left: 20%;
+    display: block;
+    margin: 0 auto;
+    height: 440px;
+    top: auto;
+    left: 0;
+    bottom: 10vh;
   }
 
   .block {
     margin: auto;
-    zoom: 1.1;
-    width: 238px;
-    height: 203px;
-    padding-bottom: 12px;
-    transform: translate(1px,-20%);
+    width: 286px;
+    height: 274px;
+    left: 2px;
+    bottom: 15vh;
   }
 
   .block__title {
-    font: bold 20px/20px Montserrat_bold, arial, helvetica, sans-serif;
-    transform: translate(-10%,-211%);
-    zoom: 0.9;
+    font: bold 19px/20px Montserrat_bold, arial, helvetica, sans-serif;
+    bottom: 27px;
+    position: relative;
   }
 
   .block__subtitke {
-    font: bold 11px/9px Monsterrat_bold, arial, helvetica, sans-serif;
-    transform: translate(-10%,-664%);
-    zoom: 0.88;
+    font: bold 10px/10px Monsterrat_bold, arial, helvetica, sans-serif;
+    position: relative;
+    margin: 0;
+    padding-bottom: 0;
+    bottom: 23px
   }
 
   .block__description {
     font: 9px/13px Monsterrat_Regular, arial, helvetica, sans-serif;
-    transform: translate(-25px,-65%);
-    zoom: 0.9;
-    width: 245px;
+    width: 260px;
+    bottom: 20px;
+    right: 4px;
+    position: relative;
   }
 
   .buttom__color {
-    width: 21px;
-    height: 21px;
-    margin-right: 4px;
-    transform: translate(-99%,-176%);
+    width: 24px;
+    height: 24px;
+    bottom: 32px;
+    position: relative;
+    display: flex;
+    flex: none;
+    margin: 31px 9px 0 0;
   }
 
-  .buttom__color_pink{
-    width: 27px;
-    height: 27px;
-    transform: translate(-78%,-126%);
+  .buttom__color_pink {
+    position: sticky;
+    width: 29px;
+    height: 29px;
+    align-self: flex-end;
   }
 
   .block_price {
-    zoom: 0.9;
-    transform: translate(62%,-330%);
-    font: bold 20px/28px Montserrat_bold, arial, helvetica, sans-serif;
+    left: 166px;
+    bottom: 71px;
+    font-size: 1.7em;
   }
 
   .block__buttom__basket {
-    zoom: 0.9;
-    height: 37px;
-    width: 260px;
-    transform: translate(-9%,-211%);
-    font: 500 13px/0px Monsterrat_Medium, arial, helvetica, sans-serif;
+    position: relative;
+    right: 117px;
+    bottom: 59px;
+    border: 1px solid black;
   }
 
   .footer { height: 596px; }
 
-  #rectangle {
-    width: 40px;
+  #rectangle__footer {
+    width: 41px;
     height: 100%;
-    transform: translateX(257%);
+    margin-left: 30%;
   }
 
+.img__footer_сontent {
+  margin: 0 auto;
+}
+
   .img__footer_сontent {
-    width: 350px;
-    height: 260px;
-    transform: translate(-8%,-256%);
+    width: 54vh;
+    left: 0;
+    bottom: 125%;
   }
 
   .img__footer_shadow {
-    width: 612px;
-    height: 300px;
-    transform: translate(-29%,-190%);
+    width: 408px;
+    bottom: 127px;
+    left: 0;
+    padding: 0;
+    margin: auto;
   }
 
   .footer__block {
     width: 304px;
-    height: 195px;
-    padding-top: 1px;
-    padding-left: 1px;
-    transform: translate(44px,-1060px);
+    height: 196px;
+    left: 0;
+    margin: 0 auto;
+    bottom: 102vh;
   }
 
   .footer__title {
-    font: bold 21px/20px Montserrat_bold, arial, helvetica, sans-serif;
-    transform: translate(25px,25%);
+    font: bold 20px/20px Montserrat_bold, arial, helvetica, sans-serif;
+    margin: 25px 0 0 0;
   }
 
   .footer__subtitle {
-    font: bold 11px/10px Montserrat_bold, arial, helvetica, sans-serif;
-    padding-left: 24px;
-    transform: translateY(-87%);
+    font: bold 10px/10px Montserrat_bold, arial, helvetica, sans-serif;
+    padding: 7px 0 0 0;
+    margin: 0;
   }
 
   .footer__discription {
-    width: 254px;
-    font: 10px/14px Monsterrat_Regular, arial, helvetica, sans-serif;
-    padding-left: 27px;
-    transform: translateY(-22%);
+    width: 226px;
+    font: 9px/13px Monsterrat_Regular, arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 9px 0 0 0;
   }
 
   .footer__buttom__basket {
-    height: 37px;
-    width: 260px;
-    transform: translate(9%,14%);
+    width: 259px;
+    padding: 18px 0 16px 0;
+    margin: 20px 0 0 0;
     font: 500 13px/0px Monsterrat_Medium, arial, helvetica, sans-serif;
   }
 
   .footer_link {
-    margin-right: 182px;
-    transform: translate(157px,80px);
-    font: 500 17px/18px Monsterrat_Medium, arial, helvetica, sans-serif;
+    position: relative;
+    width: 54%;
+    top: 18%;
+    left: 28%;
+    margin: 0;
+    font: 500 15px/18px Monsterrat_Medium, arial, helvetica, sans-serif;
   }
 
-  .footer__link-img {
-    padding-top: 6px;
-    width: 97%;
-    padding-left: 2px;
-  }
+  .footer__link-img { padding-left: 2px; }
 }
