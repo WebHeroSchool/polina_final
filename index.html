@@ -5,22 +5,39 @@
      <title>Страница сайта LOCO</title>
      <link rel="stylesheet" href="styles.css">
      <link href="font.css" rel="stylesheet">
+     <link href="mobile.css" rel="stylesheet">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<div id="bugfix" style="overflow:hidden;">
+<div id="bugfix" style="max-width:1440px;margin:0 auto;overflow:hidden;">
 <body>
   <header class="header">
-   <input id="menu__toggle" type="checkbox" />
-  <label class="menu__btn" for="menu__toggle">
-  <span></span>
-  </label>
-  <div class="logo">LOCO</div>
-    <nav class="social">
-    <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-vk"></i></a>
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-    </nav>
+    <input id="menu__toggle" type="checkbox" />
+   <label class="menu__btn" for="menu__toggle">
+   <span></span>
+   </label>
+    <div id="rectangle__header">
+  <div class="header-logo">
+    <span class="logo">LOCO</span>
+  <div class="wrapper-language">
+    <span>RU</span>
+    <i class="arrow_down"></i>
+  </div>
+</div>
+<nav class="social">
+<a href="#"><i class="fab fa-instagram"></i></a>
+  <a href="#"><i class="fab fa-vk"></i></a>
+  <a href="#"><i class="fab fa-facebook-f"></i></a>
+</nav>
+</div>
+  <img class="img__content" src="img/contenttitle.svg" alt="Фото модели">
+    <section class="content">
+      <h1 class="content__title">Новая коллекция</h1>
+      <p class="content__description">Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+      <button class="content__button">ЧИТАТЬ ДАЛЬШЕ</button>
+      <a class="header_link" href="#">ДРУГИЕ ПРЕДЛОЖЕНИЯ <img class="header__link-img" src="img/arrow.svg" alt="arrow3"/></a>
+    </section>
+    <img class="scroolling__content"src="img/Scrooll.svg" alt="Scrooll">
     <nav class="menu">
     <a class="menu__element menu__element_active" href="#">start</a>
       <a class="menu__element" href="#">services</a>
@@ -28,17 +45,6 @@
       <a class="menu__element" href="#">blog</a>
       <a class="menu__element" href="#">contact us</a>
     </nav>
-    <div class="wrapper-language">
-      <i class="arrow_down"></i>
-      <span>RU</span>
-    </div>
-    <img class="img__content" src="img/contenttitle.svg" alt="Фото модели">
-    <section class="content">
-      <h1 class="content__title">Новая коллекция</h1>
-      <p class="content__description">Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
-      <button class="content__button">ЧИТАТЬ ДАЛЬШЕ</button>
-      <a class="header_link" href="#">ДРУГИЕ ПРЕДЛОЖЕНИЯ <img class="header__link-img" src="img/arrow2.svg" alt="arrow3"/></a>
-    </section>
 </header>
 <div class="wrapper">
   <figure class="img__block">
@@ -58,17 +64,20 @@
   <p class="block_price">1990₽</p>
   <button class="block__buttom__basket">ДОБАВИТЬ В КОРЗИНУ</button>
   <div class="block__counter">
-    <button class="button__counter buttom__counter_minus">-</button>
+    <button class="button__counter block__buttom__counter_minus">-</button>
     <input type="block__search" id="block__search_number" placeholder="1" />
-    <button class="button__counter bottom__counter_plus">+</button>
+    <button class="button__counter block__bottom__counter_plus">+</button>
   </div>
-  <a class="block__link" href="#">ДРУГИЕ ТОВАРЫ НА LOCO.COM <img class="block__link-img" src="img/arrow.svg" alt="arrow"/></a>
+  <a class="block__link" href="#">ДРУГИЕ ТОВАРЫ НА LOCO.COM <img class="block__link-img" src="img/arrow2.svg" alt="arrow"/></a>
 </main>
 </div>
 <footer class="footer">
-  <div id="rectangle"></div>
-<img class="img_footer" src="img/footer_content.svg" alt="Контент">
-<div class="footer__content">
+  <div id="rectangle__footer"></div>
+    <figure class="img__footer">
+      <img class="img__footer img__footer_shadow" src="img/shadow.svg" alt=" Тень">
+      <img class="img__footer img__footer_сontent" src="img/footer_content.svg" alt="Контент">
+    </figure>
+<div class="footer__block">
   <h3 class="footer__title">Serene Total Look</h3>
   <p class="footer__subtitle">ОСЕННЯЯ КОЛЛЕКЦИЯ</p>
   <p class="footer__discription">Джинсы, свитер, обувь. <br> В комплект также входит пакет ароматного чая и кружка.</p>
@@ -76,9 +85,9 @@
   <div class="footer__buttom">
     <button class="footer__buttom footer__buttom__counter_minus">-</button>
     <input type="footer__search" id="footer__search_number" placeholder="1" />
-    <button class="footer__buttom__counter_plus">+</button>
+    <button class="footer__buttom footer__buttom__counter_plus">+</button>
   </div>
-    <a class="footer_link" href="#">ДРУГИЕ ТОВАРЫ НА LOCO.COM <img class="footer__link-img" src="img/arrow2.svg" alt="arrow"/></a>
+    <a class="footer_link" href="#">ДРУГИЕ ТОВАРЫ НА LOCO.COM <img class="footer__link-img" src="img/arrow3.svg" alt="arrow"/></a>
 </div>
 </footer>
 </body>
