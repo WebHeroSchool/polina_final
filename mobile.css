@@ -37,8 +37,8 @@
   .menu {
     visibility: hidden;
     width: 100%;
-    height: 58vh;
-    margin-top: 86vh;
+    height: 59vh;
+    bottom: 238%;
     padding-top: 6%;
     background-color: #FAE8E4;
   }
@@ -70,10 +70,15 @@
 
   #menu__toggle:checked ~ .wrapper-language i { visibility: hidden; }
 
+.content {
+  width: 70%;
+  left: 0%;
+}
+
   .content__title {
     position: relative;
-    top: 386px;
-    right: 52%;
+    top: 343px;
+    left: 5%;
     padding-left: 2px;
     margin: 0;
     font: bold 50px/53px Montserrat_bold, arial, helvetica, sans-serif;
@@ -107,7 +112,7 @@
     width: 283px;
     height: 280px;
     left: 2px;
-    bottom: 61px;
+    bottom: 63px;
     padding-left: 35px;
   }
 
@@ -153,8 +158,8 @@
   }
 
   .block_price {
-    left: 184px;
-    bottom: 57px;
+    bottom: 58px;
+    padding-left: 65%;
     font: bold 20px/28px Montserrat_bold, arial, helvetica, sans-serif;
   }
 
@@ -162,9 +167,10 @@
     position: relative;
     height: 38px;
     width: 257px;
-    right: 118px;
+    right: 4px;
     bottom: 28px;
     padding-left: 13px;
+    margin: 0;
     border: 1px solid black;
   }
 
@@ -181,16 +187,17 @@
   .img__footer_сontent {
     width: 93vw;
     height: 261px;
-    bottom: 162%;
-    padding-top: 4px;
-    left: 0;
+    bottom: 27%;
+    padding-top: 1px;
+    left: auto;
+    right: 11%;
     margin: auto;
   }
 
   .img__footer_shadow {
     width: 113%;
     height: 45%;
-    bottom: 117%;
+    top: 23%;
     right: 14vw;
   }
 
@@ -199,13 +206,13 @@
     height: 196px;
     padding: 1px 0 0 23px;
     left: 9px;
-    bottom: 159%;
+    bottom: 164%;
     margin: auto;
   }
 
   .footer__title {
     font: bold 20px/20px Montserrat_bold, arial, helvetica, sans-serif;
-    margin-top: 24px;
+    margin-top: 23px;
   }
 
   .footer__subtitle {
@@ -271,8 +278,8 @@
 
   .menu {
     width: 100%;
-    height: 84%;
-    bottom: 267%;
+    height: 78%;
+    bottom: 237%;
     padding-top: 6%;
     background-color: #FAE8E4;
     z-index: 2;
@@ -292,10 +299,14 @@
 
   #menu__toggle:checked ~ .menu__btn > span::before { top: 0; }
 
+.content {
+  width: 50%;
+  left: 0;
+}
+
   .content__title {
     position: relative;
     font-size: 4.5em;
-    right: 48vw;
     bottom: 30vh;
   }
 
@@ -368,7 +379,6 @@
   }
 
   .block_price {
-    left: 166px;
     bottom: 71px;
     font-size: 1.7em;
   }
@@ -393,16 +403,15 @@
 }
 
   .img__footer_сontent {
-    width: 54vh;
+    width: 53vh;
     left: 0;
-    bottom: 125%;
+    bottom: 106%;
   }
 
   .img__footer_shadow {
     width: 408px;
-    bottom: 127px;
-    left: 0;
-    padding: 0;
+    left: auto;
+    right: 54px;
     margin: auto;
   }
 
@@ -411,7 +420,7 @@
     height: 196px;
     left: 0;
     margin: 0 auto;
-    bottom: 102vh;
+    bottom: 107vh;
   }
 
   .footer__title {
