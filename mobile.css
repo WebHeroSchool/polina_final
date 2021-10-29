@@ -19,6 +19,7 @@
     background-image: url(img/header_content.svg);
     background-repeat: no-repeat;
     background-position-y: 15px;
+    background-size: cover;
   }
 
   #rectangle__header { background-color: transparent; }
@@ -203,9 +204,9 @@
   .footer__block {
     width: 280px;
     height: 191px;
-    padding: 6px 0 0 23px;
+    padding: 2px 0 0 23px;
     left: 9px;
-    bottom: 164%;
+    bottom: 163%;
     margin: auto;
   }
 
@@ -230,7 +231,7 @@
   .footer__button__basket {
     width: 259px;
     height: 37px;
-    padding: 14px 0 16px 0;
+    padding: 17px 0 16px 0;
     margin: 20px 0 0 3px;
     border: 1px solid;
     font: 500 13px/0px Monsterrat_Medium, arial, helvetica, sans-serif;
@@ -238,7 +239,7 @@
 
   .footer_link {
     width: 54%;
-    margin: 66px 0 0 120px;
+    margin: 66px 0 0 123px;
     font: 500 15px/18px Monsterrat_Medium, arial, helvetica, sans-serif;
   }
 
