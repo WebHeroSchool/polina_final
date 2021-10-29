@@ -204,7 +204,7 @@
   .footer__block {
     width: 280px;
     height: 191px;
-    padding: 2px 0 0 23px;
+    padding: 1px 0 0 23px;
     left: 9px;
     bottom: 163%;
     margin: auto;
@@ -245,7 +245,7 @@
 
   .footer__link-img {
     width: 90%;
-    padding: 3px 0 0 2px;
+    padding: 3px 0 0 1px;
   }
 }
 
