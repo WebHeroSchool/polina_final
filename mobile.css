@@ -1,4 +1,243 @@
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 329px) {
+
+
+  .social,
+  .img__content,
+  .content__description,
+  .content__button,
+  .header_link,
+  .img__block_back_white,
+  .block__link,
+  .wrapper-language span,
+  .block__counter,
+  .counter-2,
+  .scroolling__content,
+  .footer__button { display: none; }
+
+  .header {
+    height: 598px;
+    background-image: url(img/header_content.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  #rectangle__header { background-color: transparent; }
+
+  .logo{
+    position: relative;
+    background-color: white;
+    -webkit-text-fill-color: #000;
+    padding: 8px 147% 23px 11px;
+    top: 11px;
+  }
+
+  .menu {
+    visibility: hidden;
+    width: 100%;
+    height: 86%;
+    bottom: 238%;
+    padding-top: 6%;
+    background-color: #FAE8E4;
+  }
+
+  .menu__element { color: midnightblue; }
+
+  .menu__btn {
+    width: 69px;
+    height: 76px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .menu__btn span,
+  .menu__btn span::before {
+    position: relative;
+    right: 6px;
+    bottom: 6px;
+    width: 41%;
+  }
+  .menu__btn span::before {
+    width: 97%;
+    left: 0;
+    bottom: 3px;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::before { top: 0; }
+
+
+  #menu__toggle:checked ~ .wrapper-language i { visibility: hidden; }
+
+.content {
+  width: 70%;
+  left: 0%;
+}
+
+  .content__title {
+    position: relative;
+    top: 329px;
+    left: 5%;
+    font: bold 14vw/5vh Montserrat_bold, arial, helvetica, sans-serif;
+  }
+  .wrapper-language i {
+    position: relative;
+    border: solid #080808;
+    border-width: 0 3px 3px 0;
+    padding: 10px;
+    top: 504px;
+    left: 20.2vw;
+  }
+
+  .wrapper {
+    height: 596px;
+    top: 583px;
+  }
+
+  .img__block_back_pink {
+    height: 264px;
+    display: block;
+    margin: 0 auto;
+    right: 0;
+    bottom: 51px;
+    top: auto;
+  }
+
+  .block {
+    margin: auto;
+    width: 88%;
+    height: 299px;
+    left: 0;
+    bottom: 82px;
+    padding-left: 7%;
+  }
+
+  .block__title {
+    font: bold 20px/20px Montserrat_bold, arial, helvetica, sans-serif;
+    bottom: 27px;
+    position: relative;
+    right: 6px;
+  }
+
+  .block__subtitke {
+    font: bold 10px/10px Monsterrat_bold, arial, helvetica, sans-serif;
+    position: relative;
+    margin: 0;
+    padding-bottom: 0;
+    bottom: 23px;
+    right: 3px;
+  }
+
+  .block__description {
+    font: 9px/13px Monsterrat_Regular, arial, helvetica, sans-serif;
+    width: 96%;
+    bottom: 20px;
+    position: relative;
+  }
+
+  .button__color {
+    width: 23px;
+    height: 23px;
+    bottom: 32px;
+    position: relative;
+    display: flex;
+    flex: none;
+    margin: 32px 9px 0 0;
+  }
+
+  .button__color_pink {
+    width: 29px;
+    height: 29px;
+    top: 3px;
+    align-self: flex-end;
+  }
+
+  .block_price {
+    bottom: 57px;
+    padding-left: 140px;
+    font: bold 20px/28px Montserrat_bold, arial, helvetica, sans-serif;
+  }
+
+  .block__button__basket {
+    position: relative;
+    width: 97%;
+    right: 3px;
+    bottom: 26px;
+    margin: 0;
+    border: 1px solid black;
+  }
+
+  .footer { height: 596px; }
+
+  #rectangle__footer {
+    position: relative;
+    width: 41px;
+    height: 100%;
+    margin-left:1px;
+    left: 27%;
+  }
+
+  .img__footer_сontent {
+    width: 134%;
+    height: 266px;
+    bottom: 27%;
+    left: auto;
+    right: 23%;
+    margin: auto;
+  }
+
+  .img__footer_shadow {
+    width: 113%;
+    height: 45%;
+    top: 23%;
+    right: 14vw;
+  }
+
+  .footer__block {
+    width: 95%;
+    height: 191px;
+    padding: 1px 0 0 3px;
+    left: auto;
+    bottom: 169%;
+    margin: auto;
+  }
+
+  .footer__title {
+    font: bold 20px/20px Montserrat_bold, arial, helvetica, sans-serif;
+    margin-top: 21px;
+  }
+
+  .footer__subtitle {
+    font: bold 10px/10px Montserrat_bold, arial, helvetica, sans-serif;
+    padding-top: 7px;
+    margin: 0;
+  }
+
+  .footer__discription {
+    width: 95%;
+    font: 9px/13px Monsterrat_Regular, arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 9px 0 0 0;
+  }
+
+  .footer__button__basket {
+    width: 93%;
+    margin: 20px 0 0 3px;
+    border: 1px solid;
+    font: 500 13px/0px Monsterrat_Medium, arial, helvetica, sans-serif;
+  }
+
+  .footer_link {
+    width: 45%;
+    margin: 44px 0 0 128px;
+    font: 500 15px/18px Monsterrat_Medium, arial, helvetica, sans-serif;
+  }
+
+  .footer__link-img {
+    width: 90%;
+    padding: 2px 0 0 0;
+  }
+}
+
+@media (min-width: 330px)and (max-width: 550px) {
 
 
   .social,
@@ -19,7 +258,6 @@
     background-image: url(img/header_content.svg);
     background-repeat: no-repeat;
     background-position-y: 13px;
-    background-position-x: -3px;
     background-size: cover;
   }
 
