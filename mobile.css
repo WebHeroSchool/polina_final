@@ -18,7 +18,8 @@
     height: 598px;
     background-image: url(img/header_content.svg);
     background-repeat: no-repeat;
-    background-position-y: 15px;
+    background-position-y: 13px;
+    background-position-x: -3px;
     background-size: cover;
   }
 
@@ -37,7 +38,7 @@
   .menu {
     visibility: hidden;
     width: 100%;
-    height: 59vh;
+    height: 86%;
     bottom: 238%;
     padding-top: 6%;
     background-color: #FAE8E4;
